@@ -1,0 +1,96 @@
+body {
+	
+	background-color: #CDE7FD;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	color: #1A1A1A;
+	overflow-x: hidden;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.25rem;
+}
+h3 {
+	text-align: center;
+}
+
+.main-section {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.temp {
+font-size: 6rem;
+}
+
+.bubble{
+	
+	
+	
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+	text-align:center;
+	border-radius: 0 0 300rem 300rem;
+	background-color: #92D7F8;
+	display: flex;
+	flex-direction: column;
+
+	
+}
+
+.tab {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+
+.shadow {
+		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.left-box {
+	width: 50%;
+	font-size: 1.1rem;
+	padding: 1rem;
+	background-color: #DFF0FEFF;
+	border-radius: 0 300rem  300rem 0;
+	
+}
+
+.icon {
+	height: 5rem;
+	align-self: center;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+
+}
+
+.down {
+	height: 1rem;
+	padding: 0;
+}
+
+.right-box {
+		border-radius:  300rem 0 0 300rem;
+		text-align: right;
+		width: 50%;
+		font-size: 1.1rem;
+		padding: 1rem;
+		background-color: #DFF0FEFF;
+
+}
+
+.footer {
+	cursor: pointer;
+	width: 100%;
+	position: absolute;
+	bottom:0;
+	background-color: #92D7F8FF;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3) inset;
+}
+
